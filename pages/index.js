@@ -10,7 +10,6 @@ const Todo = () => {
       setNewTask('');
     }
   };
-
   const removeTask = (index) => {
     const updatedTasks = [...tasks];
     updatedTasks.splice(index, 1);
