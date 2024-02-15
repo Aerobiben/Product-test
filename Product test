@@ -1,6 +1,7 @@
- name: "product test",
+
+name: "product test"
 
 @param {Array|Object|Undefined} arr
- * @return {array}
- * @api public
+ @return {array}
+ @api public
 
