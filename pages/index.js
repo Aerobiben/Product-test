@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const TodoApp = () => {
+const Todo = () => {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
 
@@ -19,7 +19,7 @@ const TodoApp = () => {
 
   return (
     <div>
-      <h1>Todo App</h1>
+      <h1>Todo</h1>
       <div>
         <input
           type="text"
@@ -40,15 +40,5 @@ const TodoApp = () => {
   );
 };
 
-export default TodoApp;
 
-import TodoList from '../components/TodoList';
-
-export default function Home() {
-  return (
-    <div>
-      <TodoList />
-    </div>
-  );
-}
 
