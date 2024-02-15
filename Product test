@@ -1,7 +1,5 @@
+npx create-next-app my-todo-app
+cd my-todo-app
 
-name: "product test"
 
-@param {Array|Object|Undefined} arr
- @return {array}
- @api public
-
+npm install
